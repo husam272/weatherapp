@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.0/css/font-awesome.css">
+    <title>Weather App</title>
+</head>
+
+<body>
+
+    <div class="section01">
+        <div class="nav">
+            <div>
+                <ul>
+                    <li>home</li>
+                    <li>cities</li>
+                    <li>news</li>
+                </ul>
+            </div>
+        </div>
+        <div class="center1">
+            <div class="content01">
+                <div class="box-title">Weather Details</div>
+                <div class="box1">
+                    <div>Cloudy</div>
+                    <div>10%</div>
+                </div>
+                <div class="box1">
+                    <div>Humidity</div>
+                    <div>62%</div>
+                </div>
+                <div class="box1">
+                    <div>Wind</div>
+                    <div>8Km/h</div>
+                </div>
+            </div>
+        </div>
+        <div class="content02">
+            <div class="title01">
+                32°
+            </div>
+            <div class="title02">
+                Mumbai
+                <div class="inside-title1">
+                    06:45 Thursday 23/03/23
+
+                </div>
+
+            </div>
+            <div class="icon">
+                <i class="fa fa-sun-o" aria-hidden="true"></i>
+            </div>
+        </div>
+    </div>
+    <div class="section02">
+        <div class="title">Cities</div>
+        <div class="card01">
+            <div class="card1">
+
+                <div class="img">
+                    <img src="/images/card1.jfif" alt="">
+                </div>
+                <div class="card-text">Thunder</div>
+                <div class="card-content">
+                    <div class="temp">24°</div>
+                    <div class="details">
+                        <div class="city">Delhi</div>
+                        <div class="date">09/03/23</div>
+                    </div>
+                </div>
+            </div>
+            <div class="card1">
+
+                <div class="img">
+                    <img src="/images/card2.jfif" alt="">
+                </div>
+                <div class="card-text">Clouds</div>
+                <div class="card-content">
+                    <div class="temp">24°</div>
+                    <div class="details">
+                        <div class="city">Delhi</div>
+                        <div class="date">09/03/23</div>
+                    </div>
+                </div>
+            </div>
+            <div class="card1">
+
+                <div class="img">
+                    <img src="/images/card3.jpg" alt="">
+                </div>
+                <div class="card-text">Sunny</div>
+                <div class="card-content">
+                    <div class="temp">24°</div>
+                    <div class="details">
+                        <div class="city">Delhi</div>
+                        <div class="date">09/03/23</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="app-main">
+        <div class="enter">Enter your city name to fetch the details</div>
+        <div class="searchInputBox">
+            <input type="text" id="input-box" class="input-box" placeholder="Enter city name..." autocomplete="off">
+        </div>
+        <div class="center">
+            <div class="weather-body">
+                <div class="location-details">
+                    <div class="city" id="city">Amravati, IN</div>
+                    <div class="date" id="date">10 June (Wednesday), 2020</div>
+                </div>
+
+                <div class="weather-status">
+                    <div class="temp" id="temp">34&deg;C</div>
+                    <div class="min-max" id="min-max">32&deg;C (min) / 34&deg;C (max)</div>
+                    <div class="weather" id="weather">Clear</div>
+                    <div id="img"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="section03">
+        <div class="title">News</div>
+        <div class="card01">
+            <div class="card1">
+
+                <div class="img">
+                    <img src="/images/card1.jfif" alt="">
+                </div>
+                <div class="card-text">Thunder strike Delhi</div>
+                
+            </div>
+            <div class="card1">
+
+                <div class="img">
+                    <img src="/images/card2.jfif" alt="">
+                </div>
+                <div class="card-text">Cloudstorms in manipur</div>
+                
+            </div>
+            <div class="card1">
+
+                <div class="img">
+                    <img src="/images/card3.jpg" alt="">
+                </div>
+                <div class="card-text">its summer in mumbai</div>
+                
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="footer1">
+            <div class="foot-title">WeatherApp</div>
+            <div class="lists">
+                <ul>
+                    <li>home</li>
+                    <li>cities</li>
+                    <li>news</li>
+                    
+                </ul>
+                <div class="lists2">
+                    <ul><li>contact us</li>
+                        <li>FAQs</li></ul>
+                </div>
+            </div>
+
+        </div>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+
+</html>

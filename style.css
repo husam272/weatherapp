@@ -1,0 +1,340 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.app-main{
+    background-image: url('/images/globe.jfif');
+    height: 100vh;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-position: top center;
+    font-family: Arial, Helvetica, sans-serif;
+    background-size: cover;
+}
+
+.app-main {
+    width: 100%;
+    /* margin: 100px auto; */
+    background-color: rgba(240,248,255, 0.6);
+    padding: 20px;
+    text-align: center;
+}
+
+.app-main > * {
+    margin-bottom: 20px;
+}
+
+.input-box {
+    width: 40%;
+    background-color: rgba(255,255,255,0.6);
+    border: none;
+    outline: none;
+    color: #582233;
+    font-size: 1.2rem;
+    height: 50px;
+    border-radius: 5px;
+    padding: 0 10px;
+    text-align: center;
+}
+
+.input-box:focus {
+    background-color: rgba(255,255,255);
+}
+
+
+.weather-body {
+    display: none;
+    color: #582233;
+    padding: 20px;
+    width: 50%;
+    line-height: 2rem;
+    border-radius: 10px;
+    background-color: rgba(255,255,255,0.6);
+    height: 50vh;
+}
+
+.location-details {
+    font-weight: bold;
+}
+
+.weather-status {
+    padding: 20px;
+}
+
+.temp {
+    font-size: 50pt;
+    font-weight: 700;
+    margin: 20px 0;
+    text-shadow: 2px 4px rgba(0,0,0,0.3);
+}
+
+.min-max, .weather {
+    font-size: 12pt;
+    font-weight: 600;
+}
+.center{
+    text-align: -webkit-center;
+}
+
+
+.nav ul{
+   
+    text-align: center;
+    padding-top: 30px;
+  
+
+}
+.nav ul li{
+    display: inline;
+    font-size: 20px;
+    margin-left: 20px;
+    color: white;
+    text-transform: capitalize;
+   
+    
+}
+.section01{
+    width: 100%;
+    height: 95vh;
+    background: url(/images/back1.jpg);
+    background-size: cover;
+}
+.content01{
+    width: 35%;
+    height: 50vh;
+    /* background: rgba(71, 173, 167,0); */
+    background: rgb(0 0 0 / 22%);
+    backdrop-filter: blur(5px);
+    text-align: left;
+   
+    border: 0px solid rgb(56, 55, 55);
+    border-radius: 10px;
+    color: white;
+    padding-top: 10px;
+    margin-top: 5%;
+    
+
+
+    
+   
+}
+.content01 .box-title{
+    padding-left: 40px;
+    padding-top: 30px;
+    font-size: 25px;
+}
+.content01 .box1{
+    margin: 10%;
+    display: flex;
+    font-size: 20px;
+   
+    justify-content: space-between;
+    color: white;
+    
+}
+.center1{
+    text-align: -webkit-right;
+    margin-right: 10%;
+}
+.section01 .content02{
+    display: flex;
+    color: white;
+}
+.section01 .content02 .title01{
+    font-size: 100px;
+}
+.section01 .content02 .title02{
+    margin-top: 20px;
+    font-size: 50px;
+    font-weight: bold;
+}
+.section01 .content02 .title02 .inside-title1{
+    font-size: 15px;
+    font-weight: 400;
+}
+.section01 .content02 .icon{
+    margin-top: 45px;
+    margin-left: 15px;
+}
+.section01 .content02 .icon i{
+    font-size: 35px;
+   
+}
+.section01 .content02{
+    margin-left: 8%;
+    margin-top: 20px;
+}
+.section02{
+    width: 100%;
+    height: 85vh;
+}
+.section02 .title{
+    font-size: 45px;
+    font-weight: bold;
+    color: #00235B;
+    text-align: center;
+    margin-top: 5%;
+}
+.section02 .card1 .img{
+    position: absolute;
+}
+.section02 .card1 .img img{
+    height: 50vh;
+    width: 72%;
+    background-size: cover;
+    border: 2px solid black;
+ 
+    padding-bottom: 80px;
+    border-radius: 2%;
+}
+
+.section02 .card1 .card-text{
+    position: relative;
+    top: 190px;
+    color: white;
+    font-size: 25px;
+    font-weight: 500;
+    padding-left: 20px;
+}
+.section02 .card-content{
+    position: relative;
+    color: black;
+    display: flex;
+    top: 200px;
+ 
+}
+.section02 .card-content .temp{
+    font-size: 40px;
+    padding-left: 20px;
+}
+.section02 .card-content .city{
+    font-size: 25px;
+
+}
+.section02 .card-content .details{
+    padding-left: 100px;
+    padding-top: 20px;
+}
+.section02 .card01{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    flex-wrap: wrap;
+    margin-left: 8%;
+}
+.section02 .card1:hover{
+
+    transform: scale(1.5);
+    width: 30%;
+
+}
+.enter{
+    color: white;
+    font-size: 20px;
+}
+.section03{
+    width: 100%;
+    height: 85vh;
+}
+.section03 .title{
+    font-size: 45px;
+    font-weight: bold;
+    color: #00235B;
+    text-align: center;
+    margin-top: 5%;
+}
+.section03 .card1 .img{
+    position: absolute;
+}
+.section03 .card1 .img img{
+    height: 50vh;
+    width: 72%;
+    background-size: cover;
+    border: 2px solid white;
+ 
+    padding-bottom: 60px;
+    border-radius: 2%;
+
+}
+
+.section03 .card1 .card-text{
+    position: relative;
+    top: 190px;
+    color: white;
+    font-size: 25px;
+    font-weight: 500;
+    padding-left: 20px;
+}
+.section03 .card-content{
+    position: relative;
+    color: black;
+    display: flex;
+    top: 200px;
+ 
+}
+.section03 .card-content .temp{
+    font-size: 40px;
+    padding-left: 20px;
+}
+.section03 .card-content .city{
+    font-size: 25px;
+
+}
+.section03 .card-content .details{
+    padding-left: 100px;
+    padding-top: 20px;
+}
+.section03 .card01{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    flex-wrap: wrap;
+    margin-left: 8%;
+}
+
+footer{
+    background-color: black;
+    color: white;
+}
+footer .footer1{
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+}
+footer .foot-title{
+    font-size: 20px;
+    font-weight: bold;
+}
+footer .lists{
+    display: flex;
+    width: 20%;
+    
+}
+footer .lists2{
+    margin-left: 20px;
+}
+footer ul li{
+    list-style: none;
+    font-size: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
